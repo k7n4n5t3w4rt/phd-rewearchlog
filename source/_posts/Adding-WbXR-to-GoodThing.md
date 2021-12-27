@@ -8,12 +8,12 @@ I signed up for some online tutes from <https://www.webxracademy.com/> because t
 
 I've added a WebXR endpoint to GoodThing that imports ThreeJS and some of the nice utilities that people are making to make WebXR easier:
 
-    https://goodthing.brokenbaysoftware.co/webxr/
+<https://goodthing.brokenbaysoftware.co/webxr/>
 
 There's this nice library called "Eruda" that adds a devtools UI as an overlay for mobile:
 
-    https://github.com/liriliri/eruda
+<https://github.com/liriliri/eruda>
 
 There's a good status module from Three.js:
 
-    https://unpkg.com/three@0.133.0/examples/jsm/libs/stats.module.js
+<https://unpkg.com/three@0.133.0/examples/jsm/libs/stats.module.js>
