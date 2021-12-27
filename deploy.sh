@@ -1,6 +1,5 @@
 hexo generate
-cp source/images/* public/images/
-cp -rp public/* docs/
+cp source/images/* docs/images/
 touch docs/.nojekyll
 git add .
 git commit -m"Deploying to GitHub Pages"
