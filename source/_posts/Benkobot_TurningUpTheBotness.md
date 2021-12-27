@@ -1,7 +1,8 @@
 ---
 title: BenkoBot | Turning Up the Botness
 date: 2021-08-07 09:53:38
-tags: BenkoBot
+tags:
+	- BenkoBot
 ---
 
 <img width="100%" alt="Constraint Flower for BenkoBot showing Botness as a container" src="/images/constraint-flower-2.jpeg" />

@@ -1,7 +1,10 @@
 ---
 title: Assemblage Theory and Wardley Maps
 date: 2021-07-15 14:07:34
-tags: BenkoBot, assemblage, wardley
+tags:
+	- BenkoBot
+	- assemblage
+	- WardleyMaps
 ---
 
 Wardley Maps are based on Simon Wardley's observation that everything humans do (technology, concepts, etc) change state in ways that are broadly predictable. We can't tell when or how it will happen, but we know what things move through a spectrum of states from Genesys > Custom > Product (or Rental) > Commodity. The change from one state to anther is a phase shift and strategy is essentially the business of acting deliberately to lead or forestall the shift from left to right along map of these states.

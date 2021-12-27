@@ -1,7 +1,11 @@
 ---
 title: "Augmented-space, Assemblages and Art"
 date: 2019-12-27 05:02:51
-tags: complexity, art, assemblage, augmented-space
+tags:
+	- complexity
+	- art
+	- assemblage
+	- augmented-space
 ---
 
 Yesterday I went to "Teamlab Borderless", a digital art extravaganza located in the "entertainment" quarter of Tokyo. Inside a 6 storey parking-lot/shopping-mall type of building, nestled beneath the "Giant Sky Wheel in Palette Town" and next to the Megaweb Toyota City Showcase. I lined up for 40 minutes even though I had bought tickets online.

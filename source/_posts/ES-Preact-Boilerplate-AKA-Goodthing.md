@@ -1,7 +1,10 @@
 ---
 title: 'ES Module Preact Boilerplate - AKA, "Goodthing"'
 date: 2020-05-17 19:27:06
-tags: javascript, webAR
+tags:
+	- 	kk:w
+	- javascript
+	- webAR
 ---
 
 I needed to learn how to code again and I couldn't bare the thought of ploughing into create-react-app again. Somehow I got onto [Snowpack](https://legacy.snowpack.dev/#quick-start) and Preact etc. It seems like there's an updated to Snowpack I need to look into.

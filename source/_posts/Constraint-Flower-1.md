@@ -1,7 +1,11 @@
 ---
 title: Constraint Flower 1
 date: 2021-08-05 19:08:38
-tags: constraints, constraint-mapping, Contour556, Contour556-Safari
+tags:
+	- constraints
+	- constraint-mapping
+	- Contour556
+	- Contour556-Safari
 ---
 
 <img width="100%" alt="The first constraint map? This is the one we just did for Contour556 Safari" src="/images/constraint-flower-1.png" />

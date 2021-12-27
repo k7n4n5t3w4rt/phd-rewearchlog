@@ -1,7 +1,9 @@
 ---
 title: AR with VanillaJS
 date: 2021-07-22 06:13:04
-tags: AR(t), javascript
+tags:
+	- AR(t)
+	- javascript
 ---
 
 I plan to set a constraint for myself: I use vanilla JS with the bare minimum of libraries - like Preact or React.

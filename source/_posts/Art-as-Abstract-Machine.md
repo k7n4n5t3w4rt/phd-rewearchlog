@@ -2,6 +2,9 @@
 title: Art as Abstract Machine
 date: 2021-03-20 07:48:10
 tags:
+	- Zepke
+	- Deleuze
+	- McMahon
 ---
 
 McMahon's Kantian aesthetic theory (“critical realism”) is fine but it's only half the story. Deleuze (and Guattari) give us the other half.

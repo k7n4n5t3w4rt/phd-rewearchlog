@@ -1,7 +1,9 @@
 ---
 title: Adding WebXR to GoodThing
 date: 2021-12-27 17:26:51
-tags: GoodThing
+tags:
+	- GoodThing
+	- WebXR
 ---
 
 I signed up for some online tutes from <https://www.webxracademy.com/> because things have moved on in the last year since I did any coding - both with the WebXR API itself and with the way people are using it.

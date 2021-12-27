@@ -1,7 +1,10 @@
 ---
 title: Contour556 Safari
 date: 2021-07-26 06:19:45
-tags: practice
+tags:
+	- practice
+	- Contour556
+	- Contour556-Safari
 ---
 
 Maybe because I've been reading “Aramis, or the Love of Technology” by Latour.
