@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="English">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"researchlog.brokenbaysoftware.co","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.8.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Suche...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
+<meta property="og:type" content="website">
+<meta property="og:title" content="v1.1 - Complexity, Art, Software">
+<meta property="og:url" content="https://researchlog.brokenbaysoftware.co/index.html">
+<meta property="og:site_name" content="v1.1 - Complexity, Art, Software">
+<meta property="og:locale">
+<meta property="article:author" content="Kynan Stewart Hughes">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://researchlog.brokenbaysoftware.co/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"English","comments":"","permalink":"","path":"index.html","title":""}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>v1.1 - Complexity, Art, Software</title>
+  
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Navigationsleiste an/ausschalten" role="button">
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">v1.1 - Complexity, Art, Software</h1>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">A Development Log for a PhD Research Project</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-overview-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          Inhaltsverzeichnis
+        </li>
+        <li class="sidebar-nav-overview">
+          Übersicht
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Kynan Stewart Hughes</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">32</span>
+          <span class="site-state-item-name">Artikel</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">31</span>
+        <span class="site-state-item-name">schlagwörter</span>
+      </div>
+  </nav>
+</div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="Back to top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://researchlog.brokenbaysoftware.co/2021/12/20/Bubble-Sort-Is-Back/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Kynan Stewart Hughes">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="v1.1 - Complexity, Art, Software">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/12/20/Bubble-Sort-Is-Back/" class="post-title-link" itemprop="url">Bubble-Sort Is Back</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Veröffentlicht am</span>
+      
+
+      <time title="Erstellt: 2021-12-20 21:43:39 / Geändert am: 21:59:40" itemprop="dateCreated datePublished" datetime="2021-12-20T21:43:39+11:00">2021-12-20</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>I’m going to use WebXR to do an AR version of Bubble-Sort. I got ported it to GoodThing and got it working again.</p>
+<p><a target="_blank" rel="noopener" href="http://bubble-sort-v3.brokenbaysoftware.co/">http://bubble-sort-v3.brokenbaysoftware.co/</a></p>
+<p>I did Selection-Sort at the same time:</p>
+<p><a target="_blank" rel="noopener" href="http://selection-sort-v3.brokenbaysoftware.co/">http://selection-sort-v3.brokenbaysoftware.co/</a></p>
+<p>I plugged in URL variables, like so:</p>
+<p><a target="_blank" rel="noopener" href="https://selection-sort-v3.brokenbaysoftware.co/?fps=10&amp;max_seconds_transition_interval=3&amp;cols=10&amp;rows=10&amp;show_working=true&amp;loop=false&amp;reload_interval=5000&amp;constant_transition_speed=false">https://selection-sort-v3.brokenbaysoftware.co/?fps=10&amp;max_seconds_transition_interval=3&amp;cols=10&amp;rows=10&amp;show_working=true&amp;loop=false&amp;reload_interval=5000&amp;constant_transition_speed=false</a></p>
+<p>My plan is to make it big and put it outside Google HQ in Pyrmont. It will have enough squares that it will take a long time to sort - like, thousands of years.</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://researchlog.brokenbaysoftware.co/2021/12/20/WebXR-with-React/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Kynan Stewart Hughes">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="v1.1 - Complexity, Art, Software">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/12/20/WebXR-with-React/" class="post-title-link" itemprop="url">WebXR with React</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Veröffentlicht am</span>
+
+      <time title="Erstellt: 2021-12-20 21:28:23" itemprop="dateCreated datePublished" datetime="2021-12-20T21:28:23+11:00">2021-12-20</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Bearbeitet am</span>
+        <time title="Geändert am: 2021-12-21 06:12:58" itemprop="dateModified" datetime="2021-12-21T06:12:58+11:00">2021-12-21</time>
+      </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>Great video from lady Ada about the latest news for the WebXR API:</p>
+<p><a target="_blank" rel="noopener" href="https://youtu.be/t-uk8InHte4">https://youtu.be/t-uk8InHte4</a></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://researchlog.brokenbaysoftware.co/2021/09/06/A-Love-of-uiq/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Kynan Stewart Hughes">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="v1.1 - Complexity, Art, Software">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/09/06/A-Love-of-uiq/" class="post-title-link" itemprop="url">A Love of uiq</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Veröffentlicht am</span>
+      
+
+      <time title="Erstellt: 2021-09-06 06:37:35 / Geändert am: 06:40:33" itemprop="dateCreated datePublished" datetime="2021-09-06T06:37:35+10:00">2021-09-06</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>From YouTube transcript (wrong): …he also saw it as new means of imminent resistance to captain’s described ian is quote a mechanic and makino sphere surrounding our wires fear not is a constraining yolk of an exterior animal that is an abstract machine an inflorescence exploring the future of humanity</p>
+<p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=NllCyKVw5Lg&amp;t=1036s">https://www.youtube.com/watch?v=NllCyKVw5Lg&amp;t=1036s</a></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://researchlog.brokenbaysoftware.co/2021/09/06/Zepke-on-Conceptual-Art-D-G-What-Is-Philosophy/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Kynan Stewart Hughes">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="v1.1 - Complexity, Art, Software">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/09/06/Zepke-on-Conceptual-Art-D-G-What-Is-Philosophy/" class="post-title-link" itemprop="url">Zepke on Conceptual Art (D & G, What Is Philosophy)</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Veröffentlicht am</span>
+      
+
+      <time title="Erstellt: 2021-09-06 06:26:34 / Geändert am: 06:32:42" itemprop="dateCreated datePublished" datetime="2021-09-06T06:26:34+10:00">2021-09-06</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>A warning for new media artists - “I just bought it”:</p>
+<pre><code>https://www.youtube.com/watch?v=bHoV12OpeXk&amp;t=1588s
+</code></pre><p>A new geneology of the readymade in WIP, and so, by extension, a new geneology of contemporary art. ‘Batine’ on aesthetics::</p>
+<pre><code>https://www.youtube.com/watch?v=bHoV12OpeXk&amp;t=1770s
+</code></pre>
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://researchlog.brokenbaysoftware.co/2021/08/31/Simon-Denny/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Kynan Stewart Hughes">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="v1.1 - Complexity, Art, Software">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/08/31/Simon-Denny/" class="post-title-link" itemprop="url">Simon Denny</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Veröffentlicht am</span>
+      
+
+      <time title="Erstellt: 2021-08-31 20:16:40 / Geändert am: 20:28:00" itemprop="dateCreated datePublished" datetime="2021-08-31T20:16:40+10:00">2021-08-31</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <blockquote>
+<p>I had the opportunity when making this exhibition at Mona to work… on the first augmented reality piece that I’ve worked on. It’s kind of a layer that sits on top of almost all of the exhibition experience. So, the sculptures and the experiences in every room are enriched by this augmented reality layer. Not only is it like a kind of experiential thing but I’ve also addressed what it means to be walking with a device in your hand - …an i-device like an iPod - and also what that device does and what the hardware that augmented reality necessitates means for a viewers relationship to the museum and your experience of being in the museum</p>
+</blockquote>
+<p>~ <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=pXXPj-iWVIM&amp;t=31s">https://www.youtube.com/watch?v=pXXPj-iWVIM&amp;t=31s</a></p>
+<blockquote>
+<p>Here on this side of the room in the con second part of the exhibition products for formalized organizations. You get kind of a look into a couple of management strategies - agile being one of them and Holacracy (sic) being another - which enable this type of emergent space to exist within larger much more formalized organizations like the GCHQ or Zappos or even Apple.</p>
+</blockquote>
+<p>~ <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=YEnu7ZhR3T4&amp;t=48s">https://www.youtube.com/watch?v=YEnu7ZhR3T4&amp;t=48s</a></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://researchlog.brokenbaysoftware.co/2021/08/21/Critical-Realism-Creating-Possibilities-for-Practice/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Kynan Stewart Hughes">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="v1.1 - Complexity, Art, Software">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/08/21/Critical-Realism-Creating-Possibilities-for-Practice/" class="post-title-link" itemprop="url">Creating Possibilities for Practice</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Veröffentlicht am</span>
+      
+
+      <time title="Erstellt: 2021-08-21 13:05:00 / Geändert am: 14:02:21" itemprop="dateCreated datePublished" datetime="2021-08-21T13:05:00+10:00">2021-08-21</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <blockquote>
+<p>what is the purpose of philosophy well the model critical realists often draw upon is one that was given by the british empiricist and political philosopher john locke and this is the notion of philosophical under labour. Locke says “the commonwealth of learning is not at this time without master builders whose mighty designs and advancing the sciences will leave lasting monuments to the admiration of posterity” he is particularly thinking of Newton and of course not everyone can be in Newton so “it is ambition enough to be employed as an under labourer in clearing the ground a little and removing some of the rubbish that lies in the way of knowledge”. In other words philosophy is not concerned with grand system building master science foundationalism or first principles it doesn’t contribute to knowledge of the world directly instead it works with special Sciences and is tasked with clarifying concepts and removing impediments to knowledge in other words it is about eliminating linguistic confusion solving problems thrown up in the course of non philosophical investigations it is in some respects what we can shine called preventing language from going on holiday now so far this isn’t too from from the positivist conception but critical realism takes it a step further philosophy is also more than this the role of philosophical reflection is not only linguistic is also practical in fact I would suggest here a definition that under laboring is concerned with articulating the conditions of possibility of practice looking at the theory behind practice presupposed by practice employed within practice now what do I mean by this the phrase conditions of possibility is taken directly from a manual Kant and his notion of transcendental argumentation now in his first critique Kant had one problem to understand how empirical science is able to come to universal knowledge this is the same problem that that temple and popper tried to take up as well that given the world is only presented in particular and individuals like particular events particular social groups particular people can’t wanted to know how we move to universal knowledge like the kind articulated by Newton and the laws of physics and he did this what was through what he called transcendental argumentation this is a logic which is not inductive or deductive but a kind of reverse ducted deductive argument which instead of moving from premise to conclusion moves from a conclusion to premise so only the classic example for Kant and I’m sorry it’s a little bit abstract but given that space and time are universal qualities we don’t experience directly Kant decided they must be conditions of possibility of experience they must be the categories found in the mind which arrange and structure our experience they are the conditions a possibility for any knowledge that exists in the world so critical realism takes this this broad sort of form of logic and instead of asking about asking it in in the Kantian sort of sense changes it and it asked the question what must the world be like for our thought and our practice to be possible and meaningful so transcend argumentation again is concerned with the question what are the conditions of possibility for X where X is some significant central or pervasive feature of our experience or practice now insofar as it’s concerned with asking this question critical realism can in fact be understood as a form of pragmas been pragmatism which is concerned to articulate the conditions of possibility for our practices to be meaningful what must the natural world be like for scientific experiment and to take phases in meaningful activity what must the social world be like for our activity to be possible and meaningful what must social structures be like to make sense of our practices or must human agency be like to make sense of our experience here critical realism is is profoundly influenced by Marxism and the question or the problem that Marx States that old social life is essentially practical or mysteries which lead theory to mysticism find a rational solution in human practice and the comprehension of this practice critical realism is very much in this tradition trying to understand human practice and trying to comprehend the conditions of possibility for that practice in other words we begin with practice and practices and activity and reflect upon and investigate the conditions of possibility which make sense of and allow us to comprehend our practice clarify in our language and during the process hence clearing the grounds</p>
+</blockquote>
+<p><a target="_blank" rel="noopener" href="https://youtu.be/U5TIyheQk7c?t=1126">https://youtu.be/U5TIyheQk7c?t=1126</a></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://researchlog.brokenbaysoftware.co/2021/08/07/DeLanda-Neural-Networks/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Kynan Stewart Hughes">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="v1.1 - Complexity, Art, Software">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/08/07/DeLanda-Neural-Networks/" class="post-title-link" itemprop="url">DeLanda | Neural Networks</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Veröffentlicht am</span>
+
+      <time title="Erstellt: 2021-08-07 09:59:47" itemprop="dateCreated datePublished" datetime="2021-08-07T09:59:47+10:00">2021-08-07</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Bearbeitet am</span>
+        <time title="Geändert am: 2021-08-31 20:17:47" itemprop="dateModified" datetime="2021-08-31T20:17:47+10:00">2021-08-31</time>
+      </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <blockquote>
+<p>…what I find fantastic about this is precisely the open endedness aspect of the project the fact that it is it is a cauldron of creativity the fact that the limits are really the limits of the imagination of the designers of neural nets and therefore it’s not going to be the kind of argument that can be settled by logic alone it has to be settled by getting your hands into reality interconnecting those units creating new designs training them testing them and see what they can do in other words gonna be a lot about know-how not knowing how to design new neural nets so know how that level of the body is now beginning to interact with the first technological objects that actually can learn know how that can learn from experience and from that interaction Hume will be recovered and Hume will be in fact validated now I tell my students only as you are a very strict conceptual artist who all that he or she wants to do is things with words if you are just about any other kind of artist a musician a choreographer a painter someone who deals with colors with sounds with with intensities you are much better off with a theory of perception a theory of experience as human because humans all about those intensities and even your subjectivity when when you are in the in the process of creating a new work of art and you feel you lose yourself in the work of art well that’s also very human because humans your subject your ego they did your personal you’re more or less stable personality is something that emerges through habit is a kind of crystallization in a world of sensations not only external sensations but internal sensations feelings of pride and humiliation feelings of hatred and love feelings of sadness and joy and you we are psyched the psychic agency is simply a crystallization in a field of perceptions that is not ours and the way you can tell that is when you go into a delirium cabin fever or even a fever of 105 degrees I mean that’s one of the things I love about this it’s just how easy it is to get rid of the subject you know this turn on the button the fever button a little bit 105 106 and you’re in a delirium and when you’re in a delirium you now are fuzzy you are you don’t I don’t know who I am anymore but your sensations are there only now they are forming a wild delirium there’s so many ways of triggering that state sensory isolation chambers even an excess of alcohol that it gives us a sense of how our sensations are not really ours we’re inhabiting we as a psychic entity we’re having a body that has its own life and the sensations and if both internal and external have a life of their own we tend to think that there are hours because be a habit and routine we have given given them a certain territoriality we have we have made it ours but then when we begin to dissolve via a variety of methods we begin to rediscover how the sensations have a life of their own and how as artists we may owe them something how us artists you may it may be not the right thing for us to do to try to break you know slave all those sensations to language to words and affirm that it is the words that give them sense and coherence but rather to give them their own autonomy their own independence even if we use them to our own benefit so to conclude this talk where as Hume did not have a paradigm that was that was robust enough throughout the 20th century to make it into a viable option for our and for thinkers and therefore the 20th century was mostly neo-kantian today towards the end of the 20th century the beginning of the 21st we finally have found that paradigm that doesn’t mean that language is going to become irrelevant language is clearly very important but it’s going to be caught down to size and we need to right now rethink the role of intensities visual auditory the smell intensities texture intensities in our lives and in our art</p>
+</blockquote>
+<p>~ <a target="_blank" rel="noopener" href="https://youtu.be/a1lIXpu_MgM?t=3471">https://youtu.be/a1lIXpu_MgM?t=3471</a></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://researchlog.brokenbaysoftware.co/2021/08/07/Benkobot_TurningUpTheBotness/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Kynan Stewart Hughes">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="v1.1 - Complexity, Art, Software">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/08/07/Benkobot_TurningUpTheBotness/" class="post-title-link" itemprop="url">BenkoBot | Turning Up the Botness</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Veröffentlicht am</span>
+      
+
+      <time title="Erstellt: 2021-08-07 09:53:38 / Geändert am: 20:30:34" itemprop="dateCreated datePublished" datetime="2021-08-07T09:53:38+10:00">2021-08-07</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p><img width="100%" alt="Constraint Flower for BenkoBot showing Botness as a container" src="/images/constraint-flower-2.jpeg" /></p>
+<p>So far we’ve been focusing on making the thing work. We were doing that developer thing - assuming that once the thing works people will flock to use it. but they’re not. BenkoBot uses code and Trello users like Trello because it isn’t code.</p>
+<p>There’s that. But also, it just doesn’t have a personality. There’s no brand. I think we need to really turn up the “botness” of BenkoBot so that even if people don’t want to use it at least they know where it stands. You make a bot and it’s your bot.</p>
+<p>The BenkoBot logo is good. I think I can do something with that maybe. Of maybe a “great robots of history” sort of thing. Anyway, I’m going to start by changing the <code>/setup</code> page to be all about setting up your bot.</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://researchlog.brokenbaysoftware.co/2021/08/05/Constraint-Flower-1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Kynan Stewart Hughes">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="v1.1 - Complexity, Art, Software">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/08/05/Constraint-Flower-1/" class="post-title-link" itemprop="url">Constraint Flower 1</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Veröffentlicht am</span>
+      
+
+      <time title="Erstellt: 2021-08-05 19:08:38 / Geändert am: 20:27:55" itemprop="dateCreated datePublished" datetime="2021-08-05T19:08:38+10:00">2021-08-05</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p><img width="100%" alt="The first constraint map? This is the one we just did for Contour556 Safari" src="/images/constraint-flower-1.png" /></p>
+<p>Tim and I did this the other night when we first talked about the idea of the <a target="_blank" rel="noopener" href="https://devlog.brokenbaysoftware.co/2021/07/26/Contour556-Safari/">AR Pokemon Go type type thing for Contour556 in 2022</a>:</p>
+<ul>
+<li>We started with the hard boundary “Contour556”. I drew it and then said, in a ritualised fashion. “Contour556. This is a hard boundary because… we’re either in or out.”</li>
+<li>I drew ”device capability” with a dotted line. I said “This is a fuzzy boundary because… there are many devices and capabilities are changing all the time”</li>
+<li>Tim said “available time”. I drew it as a dotted line and said “This is a fuzzy boundary because we don’t know how much time we will have”</li>
+<li>I drew “deadline” as a solid line and said “This is a hard boundary because it’s a hard deadline in 2022”</li>
+<li>I drew “Canberra” as a dotted line and said “This is a fuzzy boundary because the theme of the artwork has to be about Canberra (Tim said ‘Does it??’)… but it’s very broadly interpreted by most people”</li>
+<li>I drew “AR” and said “This is a fuzzy boundary because there are so many different ARs - location, image marker, SLAM etc.</li>
+<li>I drew “Pandemic” and said “This is a fuzzy boundary because we don’t know what it will be like in 2022 but we need to account for many possibilities”</li>
+</ul>
+<p>We then went into the centre and I explained my idea for Pokemon Go at Contour556 - how everyone knows Pokemon Go and we serious AR artists try to ignore it. But we can play with it instead. When I mentioned creatures Tim immediately started thinking about the modelling involved in making good characters. That led to a new boundary:</p>
+<ul>
+<li>I drew a dotted line and said “Modelling effort is a fuzzy boundary because we could have different sorts of characters - from Toy Story to 2D or particle clouds</li>
+</ul>
+<p>That led to a discussion about different characters we could make. We came up with some interesting characters that would be easy to model:</p>
+<ul>
+<li>2D aliens that live on a wall</li>
+<li>Particle clouds</li>
+<li>Low polygon creatures</li>
+<li>Existing models</li>
+</ul>
+<p>I turned the dotted line into a hard line for “modelling effort“ and said “This is a harder boundary now because we’ve narrowed it down.”</p>
+<p>I had the idea that refining the idea might be a process of hardening up boundaries. First i put in stickies for the things and people inside the area of possibility created by the boundaries:</p>
+<ul>
+<li>People</li>
+<li>Creatures</li>
+<li>Instagram</li>
+<li>Buildings</li>
+</ul>
+<p>We talked about it being on Instagram and I made the “device capability” a solid line and said “This is now a hard boundary because it’s whatever works on Instagram and nothing else”.</p>
+<p>I added to the area of possibility:</p>
+<ul>
+<li>Scooters</li>
+</ul>
+<p>We thought abut what other boundaries we could harden up:</p>
+<ul>
+<li>“Canberra” became a hard boundary because the creatures will be site-specific</li>
+<li>“AR” became a hard boundary because it’s now whatever works on Instagram</li>
+</ul>
+<p>We started listing buildings and then added some to the area of possibility. We talked about the NSA being in charge of the land. I added a sticky for it and then we had to finish. I would have made that into a boundary if we hadn’t stopped.</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://researchlog.brokenbaysoftware.co/2021/08/01/DeLanda-on-Art/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Kynan Stewart Hughes">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="v1.1 - Complexity, Art, Software">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/08/01/DeLanda-on-Art/" class="post-title-link" itemprop="url">DeLanda on Art</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Veröffentlicht am</span>
+
+      <time title="Erstellt: 2021-08-01 08:05:29" itemprop="dateCreated datePublished" datetime="2021-08-01T08:05:29+10:00">2021-08-01</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Bearbeitet am</span>
+        <time title="Geändert am: 2021-08-05 20:01:29" itemprop="dateModified" datetime="2021-08-05T20:01:29+10:00">2021-08-05</time>
+      </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <blockquote>
+<p>When we talk about the phylum Chordata we’re talking about a style. Isn’t it vertebrates a kind of style? You can tell them apart immediately from the phylum Arthropoda which is insects. And insects in all the incredible variety of forms form a style.</p>
+<p>And so what Deleuze would say is styles didn’t need us to come into being. It’s the other way around. Nature has styles and it is we humans that need to learn from that because we are part of it. We are made out of flesh and blood we are one of those styles. In order to assert our singularity, our uniqueness, our difference, it is important of course that we need to start considering all the different forms of difference - difference in variation difference, in intensity difference in in the kind of differential calculus that I just said -<br>that exist in nature, that power nature, and try to use it.</p>
+<p>A lot of times we use those things unconsciously. We are simply good artists that don’t know how to explain what we do. But we can. We can tell about intensities. we can tell whether a painting strikes us, or is powerful or, on the other hand, is subdued because it’s subdued on purpose. And you’re playing with intensity. It’s not necessarily using that vocabulary.</p>
+<p>Now the last thing that Deleuze would want to do is impose a particular ideology on art because artists are the search process. They are the kind of probe head at the tip of the search and so Deleuze always kind of let them pass. Proust and Kafka are the creators. He followed them. Rather than say “oh well I’m better than Kafka and Proust” he quotes them as people who saw - who drove humanity in a particularly intense direction. He wrote a couple of books on cinema. He wrote about Francis Bacon and painting. He writes quite a bit of about music in a thousand plateaus with Felix Guattari. So for him artists are the… cutting edge of this process.</p>
+<p>What he would want is that when artists begin to talk about their art that they would have a better vocabulary. Instead of deconstructing things when … the word “deconstruction” they don’t even know what it means… So what Deleuze would want to do is yes, do art, but the moment you start talking about your art don’t go hide behind those funky words. Use words that mean something because the last thing we want artists to be doing is giving us these pseudo explanations of their art cast it in the latest terminology”</p>
+</blockquote>
+<p><a target="_blank" rel="noopener" href="https://youtu.be/50-d_J0hKz0?t=3867">https://youtu.be/50-d_J0hKz0?t=3867</a></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="Nächste Seite"></i></a>
+  </nav>
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Kynan Stewart Hughes</span>
+</div>
+  <div class="powered-by">Erstellt mit  <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a>
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+</body>
+</html>

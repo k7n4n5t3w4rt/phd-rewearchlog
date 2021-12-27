@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="English">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"researchlog.brokenbaysoftware.co","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.8.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Suche...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
+<meta name="description" content="Tim and I did this the other night when we first talked about the idea of the AR Pokemon Go type type thing for Contour556 in 2022:  We started with the hard boundary “Contour556”. I drew it and then">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Constraint Flower 1">
+<meta property="og:url" content="https://researchlog.brokenbaysoftware.co/2021/08/05/Constraint-Flower-1/index.html">
+<meta property="og:site_name" content="v1.1 - Complexity, Art, Software">
+<meta property="og:description" content="Tim and I did this the other night when we first talked about the idea of the AR Pokemon Go type type thing for Contour556 in 2022:  We started with the hard boundary “Contour556”. I drew it and then">
+<meta property="og:locale">
+<meta property="og:image" content="https://researchlog.brokenbaysoftware.co/images/constraint-flower-1.png">
+<meta property="article:published_time" content="2021-08-05T09:08:38.000Z">
+<meta property="article:modified_time" content="2021-08-05T10:27:55.848Z">
+<meta property="article:author" content="Kynan Stewart Hughes">
+<meta property="article:tag" content="constraints, constraint-mapping, Contour556, Contour556-Safari">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://researchlog.brokenbaysoftware.co/images/constraint-flower-1.png">
+
+
+<link rel="canonical" href="https://researchlog.brokenbaysoftware.co/2021/08/05/Constraint-Flower-1/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"English","comments":true,"permalink":"https://researchlog.brokenbaysoftware.co/2021/08/05/Constraint-Flower-1/","path":"2021/08/05/Constraint-Flower-1/","title":"Constraint Flower 1"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>Constraint Flower 1 | v1.1 - Complexity, Art, Software</title>
+  
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Navigationsleiste an/ausschalten" role="button">
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">v1.1 - Complexity, Art, Software</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">A Development Log for a PhD Research Project</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-overview-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          Inhaltsverzeichnis
+        </li>
+        <li class="sidebar-nav-overview">
+          Übersicht
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Kynan Stewart Hughes</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">32</span>
+          <span class="site-state-item-name">Artikel</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">31</span>
+        <span class="site-state-item-name">schlagwörter</span>
+      </div>
+  </nav>
+</div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="Back to top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="English">
+    <link itemprop="mainEntityOfPage" href="https://researchlog.brokenbaysoftware.co/2021/08/05/Constraint-Flower-1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Kynan Stewart Hughes">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="v1.1 - Complexity, Art, Software">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Constraint Flower 1
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Veröffentlicht am</span>
+      
+
+      <time title="Erstellt: 2021-08-05 19:08:38 / Geändert am: 20:27:55" itemprop="dateCreated datePublished" datetime="2021-08-05T19:08:38+10:00">2021-08-05</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p><img width="100%" alt="The first constraint map? This is the one we just did for Contour556 Safari" src="/images/constraint-flower-1.png" /></p>
+<p>Tim and I did this the other night when we first talked about the idea of the <a target="_blank" rel="noopener" href="https://devlog.brokenbaysoftware.co/2021/07/26/Contour556-Safari/">AR Pokemon Go type type thing for Contour556 in 2022</a>:</p>
+<ul>
+<li>We started with the hard boundary “Contour556”. I drew it and then said, in a ritualised fashion. “Contour556. This is a hard boundary because… we’re either in or out.”</li>
+<li>I drew ”device capability” with a dotted line. I said “This is a fuzzy boundary because… there are many devices and capabilities are changing all the time”</li>
+<li>Tim said “available time”. I drew it as a dotted line and said “This is a fuzzy boundary because we don’t know how much time we will have”</li>
+<li>I drew “deadline” as a solid line and said “This is a hard boundary because it’s a hard deadline in 2022”</li>
+<li>I drew “Canberra” as a dotted line and said “This is a fuzzy boundary because the theme of the artwork has to be about Canberra (Tim said ‘Does it??’)… but it’s very broadly interpreted by most people”</li>
+<li>I drew “AR” and said “This is a fuzzy boundary because there are so many different ARs - location, image marker, SLAM etc.</li>
+<li>I drew “Pandemic” and said “This is a fuzzy boundary because we don’t know what it will be like in 2022 but we need to account for many possibilities”</li>
+</ul>
+<p>We then went into the centre and I explained my idea for Pokemon Go at Contour556 - how everyone knows Pokemon Go and we serious AR artists try to ignore it. But we can play with it instead. When I mentioned creatures Tim immediately started thinking about the modelling involved in making good characters. That led to a new boundary:</p>
+<ul>
+<li>I drew a dotted line and said “Modelling effort is a fuzzy boundary because we could have different sorts of characters - from Toy Story to 2D or particle clouds</li>
+</ul>
+<p>That led to a discussion about different characters we could make. We came up with some interesting characters that would be easy to model:</p>
+<ul>
+<li>2D aliens that live on a wall</li>
+<li>Particle clouds</li>
+<li>Low polygon creatures</li>
+<li>Existing models</li>
+</ul>
+<p>I turned the dotted line into a hard line for “modelling effort“ and said “This is a harder boundary now because we’ve narrowed it down.”</p>
+<p>I had the idea that refining the idea might be a process of hardening up boundaries. First i put in stickies for the things and people inside the area of possibility created by the boundaries:</p>
+<ul>
+<li>People</li>
+<li>Creatures</li>
+<li>Instagram</li>
+<li>Buildings</li>
+</ul>
+<p>We talked about it being on Instagram and I made the “device capability” a solid line and said “This is now a hard boundary because it’s whatever works on Instagram and nothing else”.</p>
+<p>I added to the area of possibility:</p>
+<ul>
+<li>Scooters</li>
+</ul>
+<p>We thought abut what other boundaries we could harden up:</p>
+<ul>
+<li>“Canberra” became a hard boundary because the creatures will be site-specific</li>
+<li>“AR” became a hard boundary because it’s now whatever works on Instagram</li>
+</ul>
+<p>We started listing buildings and then added some to the area of possibility. We talked about the NSA being in charge of the land. I added a sticky for it and then we had to finish. I would have made that into a boundary if we hadn’t stopped.</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/constraints-constraint-mapping-Contour556-Contour556-Safari/" rel="tag"># constraints, constraint-mapping, Contour556, Contour556-Safari</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2021/08/01/DeLanda-on-Art/" rel="prev" title="DeLanda on Art">
+                  <i class="fa fa-chevron-left"></i> DeLanda on Art
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2021/08/07/Benkobot_TurningUpTheBotness/" rel="next" title="BenkoBot | Turning Up the Botness">
+                  BenkoBot | Turning Up the Botness <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Kynan Stewart Hughes</span>
+</div>
+  <div class="powered-by">Erstellt mit  <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a>
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+</body>
+</html>
