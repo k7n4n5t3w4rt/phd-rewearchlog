@@ -1,7 +1,9 @@
 ---
 title: Putting the Bot in BenkoBot
 date: 2021-07-24 06:32:23
-tags: BenkoBot, practice
+tags:
+	- BenkoBot
+	- practice
 ---
 
 I think maybe because we're coders - and maybe because we're essentially building a better version of ButlerBot - we were shying away from the whole “bot” thing. It occurred to me this week that the “setup” process should really be the “set up your bot”, or even “my bot”, process.

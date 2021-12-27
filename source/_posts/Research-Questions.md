@@ -1,7 +1,10 @@
 ---
 title: Research Questions?
 date: 2019-10-06 10:15:09
-tags: practice-based, practive-led, research-questions
+tags:
+	- practice-based
+	- practive-led
+	- research-questions
 ---
 
 Practice-based research (in the UTS sense), explores questions about the creative act itself (https://youtu.be/b1xQ0eMxZJU?t=230). Practice-led research uses practice to inform research. I'm mixing both things.

@@ -2,6 +2,7 @@
 title: Piece Missing
 date: 2021-07-14 08:40:11
 tags:
+	- art
 ---
 
 When I was at TAFE in the mid-90s, learning the various crafts of art-making, I made sculpture called "Piece Missing". It was an anomally.

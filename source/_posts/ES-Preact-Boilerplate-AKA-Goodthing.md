@@ -2,7 +2,6 @@
 title: 'ES Module Preact Boilerplate - AKA, "Goodthing"'
 date: 2020-05-17 19:27:06
 tags:
-	- 	kk:w
 	- javascript
 	- webAR
 ---

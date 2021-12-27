@@ -1,7 +1,8 @@
 ---
 title: Some Key Terms & Principle Concepts
 date: 2019-09-29 20:10:14
-tags: terms
+tags:
+	- terms
 ---
 
 ### Some Terms

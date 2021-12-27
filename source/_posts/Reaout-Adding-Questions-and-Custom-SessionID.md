@@ -1,7 +1,9 @@
 ---
 title: Reaout | Adding Questions and Custom SessionID
 date: 2021-07-14 22:33:09
-tags: Rreadout, software
+tags:
+	- Rreadout
+	- software
 ---
 
 Today I was using the Readout tool with the CommSee SMs who are interested in doing the pilot. I decided it was worth getting it working because of the difficulties in working remotely with these folks in India. People have their video off for various reasons:

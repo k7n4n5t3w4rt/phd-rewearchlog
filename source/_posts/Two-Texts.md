@@ -1,7 +1,12 @@
 ---
 title: Two Books About Cyberspace
 date: 2019-10-02 15:03:47
-tags: cyberspace, william-gibson, locative-art, cyberpunk, art
+tags:
+	- cyberspace
+	- william-gibson
+	- locative-art
+	- cyberpunk
+	- art
 ---
 
 The first is Neuromancer written by William Gibson in 1984. This book spawned a SciFi genre called "cyberpunk". In it, Gibson used the term "cyberspace" (coined a few years earlier in a short story) and described a networked data-space called the "matrix" that was basically a VR interface for the internet. Pretty amazing considering the internet had barely existed for about a year before the book came out.

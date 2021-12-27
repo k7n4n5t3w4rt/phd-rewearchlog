@@ -1,7 +1,10 @@
 ---
 title: Three.js
 date: 2020-05-18 07:19:05
-tags: code, javascript, webAR
+tags:
+	- code
+	- javascript
+	- webAR
 ---
 
 WebAR is built on WebGL, and the library for working with WebGL is [three.js](https://threejs.org/), invented by [mrdoob](https://github.com/mrdoob/three.js/). Before learning webAR, I thought I should do a couple of experiments with three.js so that I understood some of the basic concepts. Also, I wanted to test out my [boilerplate](../../17/ES-Preact-Boilerplate-AKA-Goodthing/).

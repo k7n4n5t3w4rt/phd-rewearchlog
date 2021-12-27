@@ -2,6 +2,7 @@
 title: Simon Denny
 date: 2021-08-31 20:16:40
 tags:
+	- art
 ---
 
 > I had the opportunity when making this exhibition at Mona to work... on the first augmented reality piece that I've worked on. It's kind of a layer that sits on top of almost all of the exhibition experience. So, the sculptures and the experiences in every room are enriched by this augmented reality layer. Not only is it like a kind of experiential thing but I've also addressed what it means to be walking with a device in your hand - ...an i-device like an iPod - and also what that device does and what the hardware that augmented reality necessitates means for a viewers relationship to the museum and your experience of being in the museum

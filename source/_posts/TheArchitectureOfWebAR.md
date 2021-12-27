@@ -1,7 +1,8 @@
 ---
 title: The Architecture of WebAR
 date: 2020-05-21 20:15:27
-tags: webAR
+tags:
+	- WebAR
 ---
 
 The current architecture of a webAR app and the underlying software technologies.

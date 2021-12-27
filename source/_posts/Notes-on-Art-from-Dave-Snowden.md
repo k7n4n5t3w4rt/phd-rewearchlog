@@ -1,7 +1,9 @@
 ---
 title: Notes on Art & Complexity
 date: 2020-05-17 22:00:27
-tags: art, complexity
+tags:
+	- art
+	- complexity
 ---
 
 “An enabling constraint… is what lowers energy barriers and facilitates the flow of information or ideas - or energy. “Restrictive constraints”... are processes or events that lift - or raise or add or create - impedances to energy flow.” (19:10)

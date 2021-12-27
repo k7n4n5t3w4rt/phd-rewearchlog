@@ -1,7 +1,9 @@
 ---
 title: S-Curves
 date: 2020-01-28 07:49:04
-tags: s-curve, complexity
+tags:
+	- s-curve
+	- complexity
 ---
 
 S-Curves are a [maths thing](https://en.wikipedia.org/wiki/Logistic_function). Their application in business strategy comes from [Charles Handy](https://www.goodreads.com/book/show/894950.The_Empty_Raincoat)

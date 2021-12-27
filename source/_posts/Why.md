@@ -1,7 +1,8 @@
 ---
 title: Why?
 date: 2019-09-25 09:32:23
-tags: practice-based research
+tags:
+	- practice-based research
 ---
 
 _Why complete the study? Why is it necessary?_
