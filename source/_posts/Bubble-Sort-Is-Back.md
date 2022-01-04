@@ -2,10 +2,13 @@
 title: Bubble-Sort Is Back
 date: 2021-12-20 21:43:39
 tags:
-	- 	GoodThing
+	- GoodThing
 	- art
 	- WebXR
+	- Bubble-Sort
 ---
+
+<img width="100%" alt="Bubble-Sort" src="/images/bubble-sort-v3-1.png" />
 
 I'm going to use WebXR to do an AR version of Bubble-Sort. I got ported it to GoodThing and got it working again.
 
