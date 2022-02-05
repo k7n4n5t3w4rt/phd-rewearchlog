@@ -7,7 +7,7 @@ tags:
 	- wayfinding
 ---
 
-<img width="100%" alt="Sketch on a photograph: fish in the Tokyo underground." src="/images/fish-1.png" />
+<img width="100%" alt="Sketch on a photograph: fish in the Tokyo underground." src="/images/fish-2.png" />
 <img width="100%" alt="Collage of fish wayfinding avatars boarding a train in the Tokyo underground." src="/images/fish-1.png" />
 
 I did these a while ago just after I came back from Tokyo.
