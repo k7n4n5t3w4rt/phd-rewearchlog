@@ -11,4 +11,4 @@ tags:
 
 <img width="100%" alt="A rough 3D version of Bubble-Sort" src="/images/bubble-sort-3d-1.png" />
 
-Adrian has been using [Three.js]() to do a new version of Bubble-Sort (see the [previous 2D version](/2021/12/20/Bubble-Sort-Is-Back/)).
+With help (thanks Adrian) I have been using [Three.js]() to do a new version of Bubble-Sort (see the [previous 2D version](/2021/12/20/Bubble-Sort-Is-Back/)).
